@@ -1,0 +1,6 @@
+# GitHub 的语言统计默认不算 prose / data 类型，Markdown 是 prose。
+# 这两行把 skill 文档重新计入统计，让仓库显示 Markdown。
+# README 本身不算文档以外的东西，交给默认规则处理即可。
+
+*.md linguist-detectable=true
+*.md linguist-documentation=false
